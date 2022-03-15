@@ -1,2 +1,2 @@
 # ping-pong
-a simple js script to make ping pong game using p5js library
+a simple js script to automate ping pong game using genetic algorithm 
