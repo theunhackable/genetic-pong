@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-___
 # Genetic Pong
 This project is a static website which displays the evolving players in the game of ping-pong (also known as table tennis), using **Genetic Algorithm**.
 This page is divided into 5 sections arranged in the following order:
@@ -104,7 +102,3 @@ ___
 - [The person behind my interest to do this project.](https://shiffman.net/)
 - [Nature of Code By Prof.Daniel Shiffman.](https://natureofcode.com/book/)
 - [Coding train - YouTube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
-=======
-# ping-pong
-a simple js script to automate ping pong game using genetic algorithm 
->>>>>>> fec4bf65a4bfa6d5ca00a79e91d32a3f6eced3f8
