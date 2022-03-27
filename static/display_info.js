@@ -8,7 +8,7 @@ function displayInfo(){
     document.getElementById("this_gen_max_fit").innerHTML = "this gen max fit: " + max_gen_fit;
     
     let slider = document.getElementById("speed");
-    var output = document.getElementById("demo");
+    var output = document.getElementById("game_speed");
     
     output.innerHTML = slider.value
     game_speed = slider.value;
@@ -30,12 +30,9 @@ function displayInfo(){
         </th>
     `
     let content = ``
-    for(let i = 0; i < 10; i++) {
-        for(let j = 0; j < players.length; ++j){
-            if(players[i].isAlive) {
-                let cls = 'noClass';
+        for(let i = 0; i < 10; ++i){
                 if(players[i].isAlive == no){
-                    cls = 'disabled';
+                    let cls = 'disabled';
                     content += `\n<tr class=${cls}>
                         <td>${players[i].name}</td>
                         <td>${players[i].score}</td>
@@ -52,11 +49,9 @@ function displayInfo(){
                     </tr>\n`
 
                 }
-                break;
-            }
         }
-    }
     let end_table = '</table>'; 
 
     document.getElementById("players-table").innerHTML= table + content + end_table;
+    
 }

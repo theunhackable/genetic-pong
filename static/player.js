@@ -41,7 +41,6 @@ class Player{
         // use deep copy;
     }
     decide() {
-        // normalise inputs
         let X = [
                     [ball.x ],
                     [ball.y ],
@@ -59,11 +58,9 @@ class Player{
 
     draw() {
         if(this.isAlive == yes) {
-            this.fitness = this.score; 
 
             this.moveDown();
             this.moveUp();
-
             this.decide();
             strokeWeight(3);
             fill(this.color);
@@ -80,9 +77,6 @@ class Player{
 
 }
 
-function sortPlayers(players=[]){
-    players.sort(function(a, b){ return b.fitness - a.fitness})
-}
 
 
 

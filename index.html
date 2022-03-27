@@ -7,29 +7,29 @@
 
 	    <title>NEURO-PONG</title>
 
-    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<link rel="stylesheet" type="text/css" href="static/style.css">
 
 		<script src="libraries/p5.min.js"></script>
 		<script src="libraries/p5.sound.min.js"></script>
 
-		<script src='matrix.js'></script>
-		<script src='NN.js'></script>
+		<script src='static/matrix.js'></script>
+		<script src='static/NN.js'></script>
 
-		<script src="display_info.js"></script>
+		<script src="static/display_info.js"></script>
 		
-		<script src="evolve.js"></script>
-		<script src="controls.js"></script>
-		<script src="ball.js"></script>
-		<script src='player.js'></script>
-		<script src="sketch.js"></script>
+		<script src="static/evolve.js"></script>
+		<script src="static/controls.js"></script>
+		<script src="static/ball.js"></script>
+		<script src='static/player.js'></script>
+		<script src="static/sketch.js"></script>
  	
 	</head>
  
   	<body>
     
-		<center>
-			<h1>
-				Welcome to genetic Pong
+		
+			<h1 class="title">
+				GENETIC PONG
 			</h1>
 
       	</center>
@@ -42,16 +42,29 @@
 				<h3 id="max_fitness"></h3>
 				<h3 id="pop_count"></h3>
 				<h3 id="this_gen_max_fit"></h3>
+				<br>
 				<h3> Top 10 players: </h3>
 				<div id ="players-table"></div>
 			</div>
-    	</div>
-		<div>Speed:</div>
-		<div id="settings">
-			<input type="range" min="1" max="50" value="1" class="slider" id="speed">
-			<p>Value: <span id="demo"></span></p>
-		</div>
+			<div class="settings">
+				<h2 class="settings-title">
+					Settings:
+				</h2>
+				<div class="setting-fonts">
+					<div>
+						Game Speed:
+						<input type="range" min="1" max="50" value="1" class="slider" id="speed">
+						<p>
+							Value: <span id="game_speed"></span>
+						</p>
+					</div>
 
+					<div>
+						
+					</div>
+				</div>
+			</div>
+    	</div>
   	</body>
 	  
 
