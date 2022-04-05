@@ -1,27 +1,16 @@
 # Genetic Pong
 This project is a static website which displays the evolving players in the game of ping-pong (also known as table tennis), using **Genetic Algorithm**.
 This page is divided into 5 sections arranged in the following order:
-- **Azure Technology Used**
 - **Instructions**
 - **Genetic Algorithm**
 - **Implementation** 
 - **The Static Web Page** 
-- **Files**
 - **Resources**
-
-___
-## Azure Technology Used
-My project is basically a static website. So I choose to use [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview) service from azure.
-
-Azure Static Web Apps is a service is a PaaS(Platform as a Service) that automatically builds and deploys static web apps to Azure from a code repository.
-As my website is a static website it does not require a backend server. Hence a static web app host would do the work.
-
-As Azure Static Web Apps Services can directly use the code repository present in the GitHub, it would be much painless for me to deploy the static code. Hence I have choosen Static Web Apps 
 ___
 ## Instructions
 ### To see evolution online:
-- Goto [my project's website](https://lemon-flower-09a589800.1.azurestaticapps.net/) which has been deployed on the microsoft azure cloud.
-- to pause the game press **"p"** again press **"p"** to play.
+- Goto [my project's github page](https://theunhackable.github.io/genetic-pong/) which has been deployed on the github pages.
+- to pause the game press **`p`** again press **`p`** to play.
 - on bottom of the screen in settings tab the game speed can be changed using the slider
 ### Local Server:
 - download the code by using the **`git`** command or by directly downloading the code.
