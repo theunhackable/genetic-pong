@@ -150,4 +150,3 @@ ___
 - [The person behind my interest to do this project.](https://shiffman.net/)
 - [Nature of Code By Prof.Daniel Shiffman.](https://natureofcode.com/book/)
 - [Coding train - YouTube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
-- [To create Static Web App On Azure](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript)
