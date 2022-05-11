@@ -37,7 +37,7 @@ function draw() {
 		// fill(255);
 		displayInfo();
 		evolve();
-		players[0].color = color(255, 0, 0, 30);
+		players[0].color = color(255, 0, 0, 90);
 		ball.update();
 	}
 
